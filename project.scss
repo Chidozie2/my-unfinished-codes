@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 110px;
+    margin: 0 auto;
+    padding-top: 30px;
+    aside{
+        border: 1px solid orange;
+        background-color: navy;
+        color: white;
+        height: 100%;
+        
+    }
+
+    header {
+        .ui-name{
+            text-decoration: none;
+            font-size: x-large;
+            font-weight: 900;
+        }
+       
+        
+
+        .heade {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1440px;
+           
+            color: navy;
+        }
+        
+        .search{
+            padding: 2px;
+            border-radius: 5px;
+        }
+
+        .head {
+            // border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 70%;
+
+        }
+    }
+
+    main {
+        .hero-section {
+            // border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 50px;
+
+        }
+
+        .hero-div1 {
+            // border: 1px solid green;
+            font-size: 20px;
+            font-weight: 300;
+            color: navy;
+            padding: 10px 5px;
+        }
+        .area{
+            display: flex;
+
+           
+        }
+        .sel-1{
+            padding: 0 30px;
+        }
+        .select-1{
+            display: flex;
+            padding: 10px;
+        }
+
+        .hero-div2 {
+            background-color: rgba(91, 191, 216, 0.281);
+            text-align: center;
+            font-size: x-large;
+            font-weight: 900;
+            color: navy;
+            border-radius: 15px;
+        }
+
+        .sel-opt {
+            text-decoration: none;
+            padding: 0 10px;
+            border: none;
+        }
+
+       
+
+    }
+}
